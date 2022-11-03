@@ -1,0 +1,25 @@
+<h1>Let's create a project</h1>
+We gonna decide that language for you!
+<hr>
+
+<label for="scopes-select" class="form-label">1. What is the scope of the project?</label>
+<select name="scopes" id="scopes-select" multiple class="form-select mb-3" size="2">
+  <option value="BACKEND">Backend.</option>
+  <option value="FRONTEND">Frontend.</option>
+</select>
+
+<label for="objective-select">2. What is the objective of this project?</label>
+<select name="objective-select" id="objective-select" class="form-select mb-3">
+  <option value="">--- Objective ---</option>
+  <option value="EMERGENCY_PROJECT">A emergency project</option>
+  <option value="TEST_PROJECT">A test project</option>
+</select>
+
+Take 100 point to you measure your necessities. <br />
+<label for="performance-range" class="form-label">3. In a range between 0 and 100, how much points do you give to <b>Performance</b>?</label>
+<input type="range" class="form-range" min="0" max="100" step="1" id="performance-range">
+
+<label for="readability-range" class="form-label">4. Learning difficulty </label>
+<input type="range" class="form-range" min="0" max="100" step="1" id="readability-range">
+
+<button class="mt-3 btn btn-primary btn-lg w-100">Create.</button>
